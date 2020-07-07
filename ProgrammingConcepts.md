@@ -8,6 +8,7 @@ Spring.2020
 **1.Shapes**
 
 circle: Puck’s shape and hockey stick’s shape : ellipse(this.x, this.y, this.size, this.size)
+
 Rectangle: Air Hockey table’s shape and button’s shape. : rect(2 * width / 5, height - 10, width / 5, 20)
 
 
