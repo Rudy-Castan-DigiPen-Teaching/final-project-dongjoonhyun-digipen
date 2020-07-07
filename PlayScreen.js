@@ -30,16 +30,5 @@ class PlayScene {
       CurrentScene = LOSE
       ScoreP = 0
     }
-    switch (difficult) {
-      case 0:
-        difficultx = 2 * width / 5
-        break;
-      case 1:
-        difficultx = width / 5
-        break;
-      case 2:
-        difficultx = 1 * width / 10
-        break;
-    }
   }
 }
