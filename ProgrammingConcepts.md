@@ -1,17 +1,17 @@
-Programming Concepts Document.
+**Programming Concepts Document.**
 
 56546585 
 Dongjoon Hyun
 CS099
 Spring.2020
 
-1.Shapes
+**1.Shapes**
 
 circle: Puck’s shape and hockey stick’s shape : ellipse(this.x, this.y, this.size, this.size)
 Rectangle: Air Hockey table’s shape and button’s shape. : rect(2 * width / 5, height - 10, width / 5, 20)
 
 
-2.Colors
+**2.Colors**
 
 Table’s side color is random colors. And puck’s color is white.
 
@@ -20,21 +20,21 @@ ex:colorMode(HSB)
    line_c3 = (line_c3 += 0.5) % 360
 
 
-3.Variables
+**3.Variables**
 
 Puck’s velocity and sticks position
 
 ex :circle(this.position.x, this.position.y, 80)
 
 
-4.Conditinal Statements.
+**4.Conditinal Statements.**
 
 ex: this.break = 0
 
 When the puck touch the sticks then puck’s direction is changed.
 
 
-5.Loops
+**5.Loops**
 
 After puck hit the stick, when the puck move to the opposite side, pucks velocity is larger.
 
@@ -46,7 +46,7 @@ ex: if (this.break == 1 && this.distance2 < this.Between) {
       }
 
 
-6.Functions
+**6.Functions**
 
 Draw Score at the center of playboard
 
@@ -73,7 +73,7 @@ function Draw_Score() {
 }
 
 
-7.Classes
+**7.Classes**
 
 Puck’s drawing at position and Draw sticks at position
 
@@ -81,7 +81,7 @@ Sticks.js
 Puck.js
 
 
-8.Arrays
+**8.Arrays**
 
 The puck’s moving trails 
 
