@@ -1,6 +1,8 @@
 **Sounds**
 
-polygon(wall).mp3 and polygon(stick).mp3 is made by me. But this mp3 files's source is from here : https://freesound.org/people/jmayoff/sounds/255156/
+polygon(wall).mp3 and polygon(stick).mp3 is made by me.
+
+But this mp3 files's source is from here : https://freesound.org/people/jmayoff/sounds/255156/
 
 **Fonts**
 
