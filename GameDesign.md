@@ -29,5 +29,3 @@ Pong found the air hockey game. And he found this friend “Pook” who is hocke
 
 The player can move the air hockey stick using mouse. 
 And the Puck goes a little faster when he goes to the other side.
-When hit by a stick, the speed is slightly reduced.
-When the player gets 10 point with in 3 minute at Play page. Then go result page. Then can found their result.
