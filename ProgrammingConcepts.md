@@ -38,7 +38,7 @@ When the puck touch the sticks then puck’s direction is changed.
 **5.Loops**
 
 After puck hit the stick, when the puck move to the opposite side, pucks velocity is larger.
-
+```
 ex: if (this.break == 1 && this.distance2 < this.Between) {
       this.break = 0
       if (this.distance2 < this.Between) {
@@ -46,11 +46,11 @@ ex: if (this.break == 1 && this.distance2 < this.Between) {
         this.polygons.play()
       }
 
-
+```
 **6.Functions**
 
 Draw Score at the center of playboard
-
+```
 function Draw_Score() {
   push()
   textFont(TitleFont)
@@ -73,7 +73,7 @@ function Draw_Score() {
   pop()
 }
 
-
+```
 **7.Classes**
 
 Puck’s drawing at position and Draw sticks at position
