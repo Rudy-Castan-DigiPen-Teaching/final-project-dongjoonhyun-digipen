@@ -30,14 +30,6 @@ ex :circle(this.position.x, this.position.y, 80)
 
 **4.Conditinal Statements.**
 
-ex: this.break = 0
-
-When the puck touch the sticks then puck’s direction is changed.
-
-
-**5.Loops**
-
-After puck hit the stick, when the puck move to the opposite side, pucks velocity is larger.
 ```
 ex: if (this.break == 1 && this.distance2 < this.Between) {
       this.break = 0
@@ -45,7 +37,21 @@ ex: if (this.break == 1 && this.distance2 < this.Between) {
         this.change()
         this.polygons.play()
       }
+```
 
+**5.Loops**
+
+After puck hit the stick, when the puck move to the opposite side, pucks velocity is larger.
+
+```
+for (var i = 0; i < this.trail.length; i++) {
+      this.trail[i].update()
+      this.trail[i].show()
+
+      if (this.trail.length > 11) {
+        this.trail.splice(0, 1)
+      }
+    }
 ```
 **6.Functions**
 
